@@ -11,13 +11,13 @@ public class ReservationTest extends Init {
 	
 	protected static WebDriver driver;
 	
-	@Before
+	//@Before
 	public void run(){
 		driver = getDriver();
 		
 	}
 	
-	@Test
+	//@Test
 	public void reservation(){
 		MainPage mainPage = new MainPage();
 		SignOnPage signOnPage = new SignOnPage();
